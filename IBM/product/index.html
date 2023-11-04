@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="bg-purple-200 rounded-2xl p-4 mb-1">
+      <div class="container mx-auto">
+        <div class="flex">
+          <a
+            href="../"
+            style="font-family: agbalumo"
+            class="text-2xl font-bold my-auto pl-1 pr-5 border-r mr-2 border-black"
+          >
+            Artisan
+          </a>
+          <div class="my-auto">
+            <button onclick="window.alert('Added to Cart')" class="lg:hidden" onclick="menuClick()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </button>
+            <ul class="hidden lg:flex font-bold text-gray-600">
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../">Home</a>
+              </li>
+              <li class="pr-5">
+                <a class="px-3 py-2" href="">Products</a>
+              </li>
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../activites/"> Activities </a>
+              </li>
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../artisan/"> Artisan Finder </a>
+              </li>
+           
+             
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../contact/"> Contact</a>
+              </li>
+            </ul>
+          </div>
+          <a
+            href=""
+            class="flex ml-auto text-medium font-bold bg-red-500 text-white px-3 py-2 rounded"
+          >
+            <span class="pr-1 hidden lg:block"> Get a Quote </span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="hidden" id="mobileMenu">
+          <ul class="lg:hidden font-bold text-gray-600">
+            <li class="mt-1"><a class="py-2" href="../">Home</a></li>
+            <li class="mt-1">
+              <a class="py-2" href="">Products</a>
+            </li>
+            <li class="mt-1"><a class="py-2" href="../activites/"> Activities</a></li>
+            <li class="mt-1"><a class="py-2" href="../artisan/"> Artisan Finder</a></li>
+           
+            <li class="mt-1"><a class="py-2" href="../contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      class="rounded-2xl p-2 mb-10"
+      style="
+        background-image: url(/assets/sareeproduct/Free\ \ Rough\,\ Paper\,\ Canvas\ Background\ Images\,\ Burlap\ Old\ Vintage\ Antique\ Background\ Photo\ Background\ PNG\ and\ Vectors.jpg);
+      "
+    >
+      <div class="container mx-auto">
+        <div class="py-16 lg:py-28">
+          <h2 class="text-center text-3xl lg:text-5xl font-bold">
+            Handloom Sarees
+          </h2>
+          <p
+            class="shadow-5xl lg:w-1/2 text-center mx-auto mt-5 font-bold text-gray-900"
+          >
+           You can buy your desired product.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center mb-2">
+          <div class="w-full md:w-1/3 py-0 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-xl">
+                <img
+                  class="rounded-t-3xl"
+                  src="https://tse4.mm.bing.net/th?id=OIP.pnmcogrlhDks_lzlJ8NUzAHaE8&pid=Api&P=0&h=180"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')"
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">Designed Pot</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price: 12000 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-6 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-lg">
+                <img
+                  class="rounded-t-3xl"
+                  src="../cart/img1.jpg"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')"
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">100 yrs old pot</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price:29000 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-0 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-lg">
+                <img
+                  class="rounded-t-3xl"
+                  src="../cart/img2.jpg"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')" 
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">Julian Pot</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price: 50000 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-0 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-lg">
+                <img
+                  class="rounded-t-3xl"
+                  src="../cart/img3.jpg"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')"
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">Bag</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price: 5600 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-6 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-lg">
+                <img
+                  class="rounded-t-3xl"
+                  src="../cart/img4.jpg"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')"
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">Blue pot</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price: 2000 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-0 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-lg">
+                <img
+                  class="rounded-t-3xl"
+                  src="https://tse2.mm.bing.net/th?id=OIP.nnk6aNAzzLcP1dSOUaU7tAHaNd&pid=Api&P=0&h=180"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')"
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">Checked box</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price:12000 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-4 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-lg">
+                <img
+                  class="rounded-t-3xl"
+                  src="../assets/sareeproduct/Pure Khaddi Georgette Banarasi Saree -  Antique zari.jpg"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')"
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">Antique Saree 1</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price:12000 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-4 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-lg">
+                <img
+                  class="rounded-t-3xl"
+                  src="../assets/sareeproduct/Pure Katan Silk Banarasi Handloom Saree - All Over Jaal Work (1).jpg"
+                  alt=""
+                />
+                <div class="p-5">
+                  <p>
+                    <!-- <span
+                      class="px-2 bg-red-100 rounded-3xl border border-red-200 py-1"
+                      >Custome</span
+                    > -->
+                    <button onclick="window.alert('Added to Cart')" 
+                      class="px-2 bg-green-100 rounded-3xl border border-green-200 py-1"
+                      >Add cart</button
+                    >
+                  </p>
+                  <h3 class="mt-4 text-lg font-bold">Antique Saree 2</h3>
+                  <h3 class="mt-1 text-sm font-bold">Price:12000 /-</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex pb-24">
+          <a
+            class="mx-auto bg-purple-600 text-white font-semibold text-lg px-5 py-1 rounded"
+            href="../cart"
+            >Go to Cart</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

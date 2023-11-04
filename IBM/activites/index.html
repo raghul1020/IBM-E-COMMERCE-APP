@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="bg-purple-200 rounded-2xl p-4 mb-1">
+      <div class="container mx-auto">
+        <div class="flex">
+          <a
+            href="../"
+            style="font-family: agbalumo"
+            class="text-2xl font-bold my-auto pl-1 pr-5 border-r mr-2 border-black"
+          >
+            Artisan
+          </a>
+          <div class="my-auto">
+            <button class="lg:hidden" onclick="menuClick()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </button>
+            <ul class="hidden lg:flex font-bold text-gray-600">
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../">Home</a>
+              </li>
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../product/">Products</a>
+              </li>
+              <li class="pr-5">
+                <a class="px-3 py-2" href=""> Activities </a>
+              </li>
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../artisan/"> Artisan Finder </a>
+              </li>
+             
+              <li class="pr-5">
+                <a class="px-3 py-2" href="../contact/"> Contact</a>
+              </li>
+            </ul>
+          </div>
+          <a
+            href=""
+            class="flex ml-auto text-medium font-bold bg-red-500 text-white px-3 py-2 rounded"
+          >
+            <span class="pr-1 hidden lg:block"> Get a Quote </span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="hidden" id="mobileMenu">
+          <ul class="lg:hidden font-bold text-gray-600">
+            <li class="mt-1"><a class="py-2" href="../">Home</a></li>
+            <li class="mt-1">
+              <a class="py-2" href="../product/">Products</a>
+            </li>
+            <li class="mt-1"><a class="py-2" href="../activites/"> Activities</a></li>
+            <li class="mt-1"><a class="py-2" href="../artisan/"> Artisan Finder</a></li>
+            <li class="mt-1"><a class="py-2" href="../contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section
+      class="rounded-2xl p-2 mb-10"
+      style="
+        background-image: url(/assets/back.jpg);
+        background-repeat: repeat;
+        background-size: contain;
+      "
+    >
+      <div class="container mx-auto">
+        <div class="py-16 lg:py-28">
+          <h2 class="text-center text-3xl lg:text-5xl font-bold">
+            Event &amp; Activities
+          </h2>
+          <p
+            class="shadow-5xl lg:w-1/2 text-center mx-auto mt-5 font-bold text-gray-900"
+          >
+            Flash sale, Exhibition other activites will be displayed.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center mb-24">
+          <div class="w-full md:w-1/3 py-0 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-xl">
+                <img
+                  class="rounded-t-3xl"
+                  src="https://tse3.mm.bing.net/th?id=OIP.FQoZGpVOhfD4Vvi4rd7xKgHaE8&pid=Api&P=0&h=180"
+                  alt=""
+                />
+                <div class="p-3 px-5">
+                  <h3 class="mt-1 text-lg font-bold">Drawing Exhibition</h3>
+                  <p class="mt-1 text-sm font-bold">
+                    The grand Exhibition going to be held.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-7 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-xl">
+                <img
+                  class="rounded-t-3xl"
+                  src="https://tse2.mm.bing.net/th?id=OIP.EZIVIncTq4943DiRlX5pvgHaD4&pid=Api&P=0&h=180"
+                  alt=""
+                />
+                <div class="p-3 px-5">
+                  <h3 class="mt-1 text-lg font-bold">Handicraft</h3>
+                  <p class="mt-1 text-sm font-bold">
+                   Flash sale
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 py-3 md:pt-24">
+            <div class="w-full md:w-11/12 lg:w-8/12 mx-auto">
+              <div class="bg-white rounded-3xl shadow-xl">
+                <img
+                  class="rounded-t-3xl"
+                  src="https://tse4.mm.bing.net/th?id=OIP.J9KdYqrqjtgx_C_jkmMyzAHaD4&pid=Api&P=0&h=180"
+                  alt=""
+                />
+                <div class="p-3 px-5">
+                  <h3 class="mt-1 text-lg font-bold">Pottery Exhibition</h3>
+                  <p class="mt-1 text-sm font-bold">
+                    Various types of potteries from different artisans will be shown in the Exhibition.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex pb-24" >
+          <a onclick="window.alert('you will be notified')"
+            class="mx-auto bg-purple-600 text-white font-semibold text-lg px-5 py-2 rounded"
+            href=""
+            >Notify Me</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.one > img {
+  border-radius: 10px;
+  width: 180px;
+  height: 350px;
+}
+
+.two {
+  padding-top: 25px; 
+}
+
+.two > img {
+  border-radius: 10px;
+  width: 180px;
+  height: 350px;
+}
